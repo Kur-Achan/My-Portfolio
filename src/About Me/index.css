@@ -1,0 +1,39 @@
+/* body{
+ background-color:#D1D1D1 ;   
+} */
+
+#I{
+  color:#54585C; 
+  margin-left:66%; 
+  font-size: 100px;
+}
+#self{
+ color: #627083; 
+ margin-left: 70%;  
+ font-size: 60px;
+ 
+}
+.know{
+    background-color:#D1D1D1 ;  
+    height: 955px;
+    margin-top: 310px;
+}
+#btn2{
+  margin-left: 8%;
+border-radius: 12px;
+background-color: #D9D9D9;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+border: navy;
+padding:  80px 20px;
+width: 50%;
+
+
+}
+.items{
+ display: flex; 
+}
+#mark{
+ width: 40%;
+ margin-top: -15%; 
+}

@@ -1,0 +1,129 @@
+body{
+ background-color: #627083;   
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #092D4C;
+    position: relative;
+    z-index: 1000;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .logo img {
+    height: 50px;
+    width: 89px;
+  }
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    /* padding: 2px; */
+    margin-left: -1%;
+    gap: 70px;
+  }
+  nav ul li {
+    padding-right: 74px;
+    font-size: 27px;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  nav ul li a.active {
+    color: #FFA500;
+  }
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  .hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  .hamburger.open span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  .hamburger.open span:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+  }
+  .page-podcast{
+    overflow-x: hidden;
+  } 
+  #me{
+  font-size: 50px;
+  font-weight: bolder; 
+  color: aliceblue; 
+  margin-left: 10%;
+  }
+  #salutation{
+    margin-left: 10%;
+    font-size: 50px;
+    color: aliceblue;
+
+  }
+  #intro{
+    margin-left: 10%;
+    font-size: 50px;
+    color: aliceblue;
+
+  }
+
+  #pic{
+  margin-top: -47%; 
+  margin-left: 30%; 
+  width: 39%;
+  }
+  .download{
+   margin-top: -20%;
+   margin-left: 80%; 
+  }
+
+  #btn{
+    margin-left: -360%;
+    border-radius: 12px;  
+    border: none;
+    background-color: #9cd9f3;
+    padding: 15px 70px;
+  
+   margin-top: 10%;
+    }
+    .download{
+     color: aliceblue; 
+     margin-top: -30%;
+    }
+    #chat{
+     margin-top: 5%; 
+     color: aliceblue;
+     text-decoration: none;
+    }
+    #circle{
+   background-color: rgb(134, 250, 17);
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 80%;
+    padding: 5px 15px 25px;
+    border: navy;
+    /* padding-top: 20%; */
+      
+    }
+    #circle2{
+      background-color: rgb(245, 18, 6);
+       border-radius: 50%;
+       margin-top: -25%;
+       margin-left: 80%;
+       padding: 3px 10px 15px;
+       border: none;
+       /* padding-top: 20%; */  
+    }
+ 
+    
